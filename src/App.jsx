@@ -28,7 +28,11 @@ function App() {
         </div>
         <div className="flex flex-col gap-5 mt-5">
           <p className={styles.p}>Пароль</p>
-          <input type="password" placeholder="Пароль" className={styles.input} />
+          <input
+            type="password"
+            placeholder="Пароль"
+            className={styles.input}
+          />
         </div>
         <p className={styles.agreement}>
           Регистрируясь, вы соглашаетесь с условиями использования нашего
@@ -39,7 +43,7 @@ function App() {
         </p>
         <button className="border border-borderCustom py-3.5 rounded-xl mt-5 text-whiteCustom font-normal text-xl flex items-center justify-center gap-3.5">
           <p>Продолжить</p>
-          <img src={arrow} alt="arrow" className="max-[500px]:hidden"/>
+          <img src={arrow} alt="arrow" className="max-[500px]:hidden" />
         </button>
       </div>
     </div>
