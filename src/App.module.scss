@@ -1,0 +1,16 @@
+.input {
+  @apply bg-bgCustom border border-borderCustom rounded-xl pl-5 py-3.5 w-full text-inputText font-normal text-xl;
+}
+.p {
+  @apply font-normal text-xl text-whiteCustom;
+}
+.agreement {
+  max-width: 490px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #939393;
+  margin-top: 1.25rem;
+}
