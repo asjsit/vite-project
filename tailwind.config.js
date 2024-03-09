@@ -7,7 +7,8 @@ export default {
       'bgCustom': '#131315',
       'borderCustom': '#454545',
       'inputText': '#939393',
-      'greenCustom': '#2EFF43'
+      'greenCustom': '#2EFF43',
+      'starCustom': '#FF7144'
     },
     extend: {}
   },
