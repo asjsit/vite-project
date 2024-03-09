@@ -21,14 +21,14 @@ function App() {
         <div className="flex flex-col gap-5 mt-5">
           <p className={styles.p}>Адрес электронной почты</p>
           <input
-            type="text"
+            type="email"
             placeholder="Адрес электронной почты"
             className={styles.input}
           />
         </div>
         <div className="flex flex-col gap-5 mt-5">
           <p className={styles.p}>Пароль</p>
-          <input type="text" placeholder="Пароль" className={styles.input} />
+          <input type="password" placeholder="Пароль" className={styles.input} />
         </div>
         <p className={styles.agreement}>
           Регистрируясь, вы соглашаетесь с условиями использования нашего
